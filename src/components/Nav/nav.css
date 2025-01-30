@@ -103,3 +103,11 @@ li{
 
     
   }
+
+  @media only screen and (min-width: 1440px) and (max-width: 1440px) {
+    ul{
+        display: flex;
+        gap: 10px;
+        margin-right: 450px;
+    }
+      }
