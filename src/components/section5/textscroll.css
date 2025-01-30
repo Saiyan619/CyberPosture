@@ -1,0 +1,8 @@
+.text_scroll{
+    color: #cbd5e1; /* Equivalent to text-slate-300 */
+    font-weight: bold; /* Equivalent to font-bold */
+    font-size: 1.25rem; /* Equivalent to text-xl */
+    text-align: center; /* Equivalent to text-center */
+    padding-top: 1.5rem; /* Equivalent to py-6 */
+    padding-bottom: 1.5rem; /* Equivalent to py-6 */
+}

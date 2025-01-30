@@ -1,0 +1,47 @@
+.card_div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.scroll_text {
+    font-size: 10px;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.316);
+    width: 300px;
+    padding: 20px;
+    border-top-right-radius: 30px;
+}
+
+.profile_container {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.profile_img{
+    width: 50px;
+}
+
+.name{ 
+    font-size: 13px;
+}.title{ 
+    font-size: 11px;
+}
+
+.quote_container {
+    display: flex;
+    justify-content: flex-end; /* Moves content to the right */
+}
+
+.quote {
+    width: 40px;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.card_sub_div{
+    display: flex;
+    flex-direction: column;
+}

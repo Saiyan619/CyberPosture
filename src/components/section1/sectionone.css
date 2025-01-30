@@ -1,0 +1,203 @@
+.section_1_main_container{
+    color: white;
+    position: sticky;
+    overflow: hidden;
+    padding-top: 50px;
+
+    .container {
+        display: flex;
+         height: 50vh;
+        width: 100%;
+        position: relative;
+      }
+      
+      .section_1_header {
+        text-align: center;
+        width: 100%;
+        color: grey;
+        font-size: large;
+      }
+
+      .section_1_header_text{
+        text-transform: uppercase;
+        font-size: 10px;
+        color: #7DBDF8;
+      }
+      
+      .scroll-container {
+        height: 0vh;
+      }
+      
+      .carousel-primary,
+      .carousel-secondary {
+        top: 26%;
+        left: 100%;
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+      }
+      
+      .scroll_text{
+        font-size: 40px;
+        text-transform: uppercase;
+      }
+
+      .scroll_dot{
+        background-color: blue;
+        width: 15px;
+        height: 15px;
+        border-radius: 100px;
+        margin-top: 25px;
+      }
+    
+      .carousel-primary {
+        display: flex;
+        justify-content: space-around;
+        animation: scroll-horizontal 20s linear infinite;
+      }
+      
+      .carousel-secondary {
+        animation: scroll-horizontal 20s linear infinite;
+        animation-delay: 10s;
+      }
+}
+
+
+  
+  @keyframes scroll-horizontal {
+    0% {
+      left: 100%;
+    }
+  
+    100% {
+      left: -100%;
+    }
+  }
+  
+  .carousel-primary:hover,
+  .carousel-primary:hover~.carousel-secondary {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+  }
+  
+  .carousel-secondary:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+  }
+  
+  
+  .scroll-container:hover>.carousel-primary:not(:hover) {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .section_1_main_container{
+     color: white;
+      position: sticky;
+      overflow: hidden;
+      padding-top: 50px;
+  
+      .container {
+          display: flex;
+          height: 20vh;
+          width: 100%;
+          position: relative;
+        }
+        
+        .section_1_header {
+          text-align: center;
+          width: 100%;
+          padding-top: 0px;
+          color: grey;
+          font-size: small;
+        }
+        
+        .scroll-container {
+          height: 0vh;
+          gap: 20px;
+
+        }
+
+        .scroll_text{
+          font-size: 20px;
+          text-transform: uppercase;
+        }
+        
+        .scroll_dot{
+          background-color: blue;
+          width: 7px;
+          height: 7px;
+          border-radius: 100px;
+          margin-top: 10px;
+        }
+
+        .carousel-primary,
+        .carousel-secondary {
+          top: 26%;
+          left: 100%;
+          width: 100%;
+          overflow: hidden;
+          position: absolute;
+          white-space: nowrap;
+        }
+        
+      
+        .carousel-primary {
+          display: flex;
+          justify-content: space-around;
+          animation: scroll-horizontal 20s linear infinite;
+        }
+        
+        .carousel-secondary {
+          animation: scroll-horizontal 20s linear infinite;
+          animation-delay: 10s;
+        }
+  }
+  
+  
+    
+    @keyframes scroll-horizontal {
+      0% {
+        left: 100%;
+      }
+    
+      100% {
+        left: -100%;
+      }
+    }
+    
+    .carousel-primary:hover,
+    .carousel-primary:hover~.carousel-secondary {
+      -webkit-animation-play-state: paused;
+      -moz-animation-play-state: paused;
+      -o-animation-play-state: paused;
+      animation-play-state: paused;
+    }
+    
+    .carousel-secondary:hover {
+      -webkit-animation-play-state: paused;
+      -moz-animation-play-state: paused;
+      -o-animation-play-state: paused;
+      animation-play-state: paused;
+    }
+    
+    
+    .scroll-container:hover>.carousel-primary:not(:hover) {
+      -webkit-animation-play-state: paused;
+      -moz-animation-play-state: paused;
+      -o-animation-play-state: paused;
+      animation-play-state: paused;
+    }
+  
+  }
+
+    

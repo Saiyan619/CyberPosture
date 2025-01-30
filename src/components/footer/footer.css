@@ -1,0 +1,53 @@
+.footer_main_container{
+    margin-top: 150px;
+}
+
+.sub_footer_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub_footer_container_2{
+    display: flex;
+    gap: 100px;
+}
+
+.sub_footer_list_container{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+.sub_footer_container_3 > img{
+    width: 100px;
+}
+
+.last_div {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 100px;
+    position: relative; /* Needed for absolute positioning of overlay */
+    overflow: hidden; /* Prevents overflow issues */
+}
+
+.last_div::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Adjust height for a stronger fade effect */
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.016));
+    pointer-events: none; /* Ensures it doesn't interfere with interactions */
+}
+
+.last_div > img{
+    width: 100%;
+}
+
+.last_div > span{
+    font-size: 120px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}

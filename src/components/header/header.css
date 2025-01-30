@@ -1,0 +1,128 @@
+.header{
+    /* background-color: #11121B; */
+    background: radial-gradient(circle, rgba(162, 153, 246, 0.463), #11121B 40%);
+    background-color: #11121B; 
+    height: 90vh;
+    color: white;
+}
+
+.checker_bg{
+    width: 100%;
+    height: 89vh;
+}
+
+.sub_header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.header_btn_1 {
+    background: linear-gradient(to right, #09C6DE, #460389);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+
+.header_btn_2{
+    background-color: transparent;
+    border: 1px solid#09C6DE;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.header_hero_text_container{
+    margin-top: 30px;
+}
+
+.sub_header_hero_text_container{
+    line-height: 80px;
+}
+
+
+
+h1{
+    font-size: 200px;
+}
+
+.header_hero_span{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.header_hero_p{
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-top: 100px;
+}
+
+.header_hero_btns_container{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .header{
+        /* background-color: #11121B; */
+        background: radial-gradient(circle, rgba(162, 153, 246, 0.463), #11121B 40%);
+        background-color: #11121B; 
+        height: 85vh;
+        color: white;
+    }
+
+    
+.checker_bg{
+    width: 100%;
+    height: 83vh;
+}
+
+    
+    h1{
+        font-size: 70px;
+    }
+
+    .sub_header_hero_text_container{
+        line-height: 50px;
+        z-index: 100000;
+    }
+
+    .header_hero_p{
+        font-size: 10px;
+        text-transform: capitalize;
+        margin-top: 30px;
+    }
+
+    .header_btn_1 {
+        background: linear-gradient(to right, #09C6DE, #460389);
+        border: none;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 100px;
+        cursor: pointer;
+        font-size: 10px;
+      }
+    
+    .header_btn_2{
+        background-color: transparent;
+        border: 1px solid#09C6DE;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 100px;
+        cursor: pointer;
+        font-size: 10px;
+    }
+    
+}

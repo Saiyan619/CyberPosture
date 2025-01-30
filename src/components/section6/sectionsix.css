@@ -1,0 +1,46 @@
+.section_6_main_container{
+    margin-top: 50px;
+    padding: 0px 0px 50px;
+    position: relative;
+}
+
+
+.section_6_glow_bg_container {
+    position: absolute;
+    width: 150px; /* Adjust size */
+    height: 150px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle, rgb(113, 98, 243) 50%, rgba(10, 10, 15, 0.1) 70%, #11121B 100%);
+    border-radius: 0%;
+    opacity: 1; /* Adjust intensity */
+    filter: blur(50px); /* Smooth glow effect */
+}
+
+
+.section_6_hero_text_container {
+    z-index: 2; /* Higher z-index to place it on top */
+    text-align: center;
+    position: relative; /* Ensure the container is positioned relative to the image */
+}
+
+
+.section_6_hero_text_container> span{
+    font-size: 35px;
+}
+.section_6_hero_text_container> p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.section_6_btn {
+    background: linear-gradient(to right, #09C6DE, #460389);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 13px;
+    margin-top: 15px;
+  }
