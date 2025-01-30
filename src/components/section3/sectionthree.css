@@ -8,6 +8,13 @@
     color: #7DBDF8;
 }
 
+.section_3_gradient_text {
+    background: linear-gradient(to right, #09C6DE, #460389);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
 .section_3_cards_container{
     display: flex;
     align-items: center;

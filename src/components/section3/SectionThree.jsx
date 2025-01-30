@@ -6,8 +6,9 @@ import './sectionthree.css'
 const SectionThree = () => {
   return (
     <div className='section_3_container'>
+    
       <span>how we work</span>
-      <h2><span>We ensure your organization is protected</span> <br />against evolving threats and meets all <br />regulatory requirements.</h2>
+      <h2><span className='section_3_gradient_text'>We ensure your organization is protected</span> <br />against evolving threats and meets all <br />regulatory requirements.</h2>
       
       <div className='section_3_cards_container'>
 
