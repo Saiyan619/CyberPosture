@@ -10,6 +10,6 @@
     height: 70vh;
     align-items: center;
     overflow: hidden;
-    padding-top: 1.5rem; /* Equivalent to py-6 */
-    padding-bottom: 1.5rem; /* Equivalent to py-6 */
+    padding-top: 1.5rem; 
+    padding-bottom: 1.5rem; 
 }

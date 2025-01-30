@@ -26,13 +26,13 @@ h3{
 
 .glow_bg_container {
     position: absolute;
-    width: 250px; /* Adjust size */
+    width: 250px;
     height: 150px;
     top: 30%;
     background: radial-gradient(circle, rgb(113, 98, 243) 50%, rgba(10, 10, 15, 0.1) 70%, #11121B 100%);
     border-radius: 0%;
-    opacity: 1; /* Adjust intensity */
-    filter: blur(50px); /* Smooth glow effect */
+    opacity: 1;
+    filter: blur(50px); 
 }
 
 .section_4_cards_conatiner{

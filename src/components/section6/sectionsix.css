@@ -7,22 +7,21 @@
 
 .section_6_glow_bg_container {
     position: absolute;
-    width: 150px; /* Adjust size */
+    width: 150px;
     height: 150px;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: radial-gradient(circle, rgb(113, 98, 243) 50%, rgba(10, 10, 15, 0.1) 70%, #11121B 100%);
     border-radius: 0%;
-    opacity: 1; /* Adjust intensity */
-    filter: blur(50px); /* Smooth glow effect */
+    opacity: 1; 
+    filter: blur(50px); 
 }
 
-
 .section_6_hero_text_container {
-    z-index: 2; /* Higher z-index to place it on top */
+    z-index: 2; 
     text-align: center;
-    position: relative; /* Ensure the container is positioned relative to the image */
+    position: relative;
 }
 
 

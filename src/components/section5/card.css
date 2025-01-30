@@ -33,12 +33,12 @@
 
 .quote_container {
     display: flex;
-    justify-content: flex-end; /* Moves content to the right */
+    justify-content: flex-end; 
 }
 
 .quote {
     width: 40px;
-    height: auto; /* Maintain aspect ratio */
+    height: auto; 
 }
 
 .card_sub_div{
