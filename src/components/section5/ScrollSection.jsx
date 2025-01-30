@@ -4,6 +4,7 @@ import Card from "./Card";
 import { motion } from "framer-motion";
 import { useScroll, useTransform } from "framer-motion";
 
+
 const ScrollSection = () => {
   const targetRef = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -17,7 +18,6 @@ const ScrollSection = () => {
       <div className="sticky-container">
       {/* //pass x in the style prop */}
         <motion.div style={{ x }}>
-       
         <Card />
         </motion.div>
       </div>
