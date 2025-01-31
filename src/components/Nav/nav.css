@@ -12,11 +12,12 @@ nav{
 ul{
     display: flex;
     gap: 10px;
-    margin-right: 250px;
+    margin-right: 450px;
 }
 
 li{
     list-style: none;
+    cursor: pointer;
 }
 
 .sub_nav_mobile{
