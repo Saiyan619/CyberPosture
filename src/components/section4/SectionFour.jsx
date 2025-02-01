@@ -31,13 +31,7 @@ const SectionFour = () => {
                       compliance. Our readiness assessments identify gaps and provide actionable recommendations.
                   </p>
         </div>
-              <div className='section_4_card'>
-                  <span>compliance readiness and self assesments</span>
-                  <p>Ensure your organization is prepared to meet the highest standards of cybersecurity
-                      compliance. Our readiness assessments identify gaps and provide actionable recommendations.
-                  </p>
-        </div>
-        
+             
 
       </div>
       
@@ -61,13 +55,7 @@ const SectionFour = () => {
                 compliance. Our readiness assessments identify gaps and provide actionable recommendations.
             </p>
   </div>
-        <div className='section_4_card'>
-            <span>compliance readiness and self assesments</span>
-            <p>Ensure your organization is prepared to meet the highest standards of cybersecurity
-                compliance. Our readiness assessments identify gaps and provide actionable recommendations.
-            </p>
-  </div>
-  
+        
 
     </div>
     </div>

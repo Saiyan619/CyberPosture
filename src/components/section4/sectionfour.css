@@ -37,7 +37,7 @@ h3{
 
 .section_4_cards_conatiner{
     display: flex;
-    gap: 10px;
+    gap: 50px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -46,7 +46,7 @@ h3{
 
 .section_4_cards_conatiner_2{
     display: flex;
-    gap: 10px;
+    gap: 50px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -55,7 +55,7 @@ h3{
 
 .section_4_card{
     padding: 20px;
-    width: 250px;
+    width: 300px;
     backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.038);
     border-radius: 15px;
