@@ -3,6 +3,8 @@ import "./header.css";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
+
+// dont forget to fix button scale issue
 const Header = () => {
   const [ref, InView] = useInView({
     triggerOnce: true,

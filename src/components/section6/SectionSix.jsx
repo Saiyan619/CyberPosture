@@ -9,7 +9,7 @@ const SectionSix = () => {
       </div>
           <div className='section_6_hero_text_container'>
               <span>Get started. Its easy</span>
-              <p>Everything you need to remain cybersecurity compliant is <br /> just a call away</p>
+              <p>Everything you need to remain cybersecurity compliant is just a call away.</p>
               <button className='section_6_btn'>Schedule a call</button>
 
       </div>

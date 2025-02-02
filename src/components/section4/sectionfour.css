@@ -13,7 +13,7 @@
 
 .section_4_container > span {
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 13px;
     color: #7DBDF8;
 }
 
@@ -84,4 +84,26 @@ h3{
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .section_4_cards_conatiner{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+    .section_4_cards_conatiner_2{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
 }
