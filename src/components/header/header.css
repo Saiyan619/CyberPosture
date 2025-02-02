@@ -22,7 +22,7 @@
 .header_hero_p{
     font-size: 10px;
     text-transform: capitalize;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 .header_btn_1 {
@@ -72,11 +72,11 @@ scale: 1;
 }
 
 .header_hero_text_container{
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 .sub_header_hero_text_container{
-    line-height: 80px;
+    line-height: 70px;
 }
 
 
