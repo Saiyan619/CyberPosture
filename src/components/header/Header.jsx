@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 
-// dont forget to fix button scale issue
 const Header = () => {
   const [ref, InView] = useInView({
     triggerOnce: false,
@@ -24,8 +23,7 @@ const Header = () => {
             animate={InView ? { opacity: 1 } : {}}
             exit={{ opacity: 0}}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="sub_header_hero_text_container"
-          >
+            className="sub_header_hero_text_container">
             <span className="header_hero_span">let's help you stay</span>
             <h1>Secured</h1>
           </motion.div>

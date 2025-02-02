@@ -42,6 +42,18 @@
     cursor: pointer;
     font-size: 13px;
     margin-top: 15px;
+    transition: .3s; 
+  }.section_6_btn:hover {
+    background: linear-gradient(to right, #09C6DE, #460389);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 13px;
+    margin-top: 15px;
+    filter: drop-shadow(0 0 40px #09C6DE);
+    transition: .3s; 
   }
 
 
