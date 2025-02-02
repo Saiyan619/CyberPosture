@@ -7,7 +7,7 @@ import { useInView } from "react-intersection-observer";
 // dont forget to fix button scale issue
 const Header = () => {
   const [ref, InView] = useInView({
-    triggerOnce: true,
+    triggerOnce: false,
     threshold: 0.2,
   });
 
@@ -23,7 +23,7 @@ const Header = () => {
             initial={{ opacity: 0, y: 0 }}
             animate={InView ? { opacity: 1 } : {}}
             exit={{ opacity: 0}}
-            transition={{ duration: 0.5, delay: 0.6 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
             className="sub_header_hero_text_container"
           >
             <span className="header_hero_span">let's help you stay</span>
