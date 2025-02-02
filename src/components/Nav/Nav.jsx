@@ -48,9 +48,14 @@ const Nav = () => {
           </motion.div>
       
 
-          <div onClick={toggleNav} className="hamburger">
-          <Hamburger size={20} toggled={change} toggle={setChange} />
+      <div>
+        <button className='nav_btn_far_right'>Schedule a call</button>
+        <div onClick={toggleNav} className="hamburger">
+        <Hamburger size={20} toggled={change} toggle={setChange} />
           </div>
+      </div>
+
+      
 
 
       </nav>

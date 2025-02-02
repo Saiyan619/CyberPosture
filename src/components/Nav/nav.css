@@ -12,7 +12,7 @@ nav{
 ul{
     display: flex;
     gap: 10px;
-    margin-right: 450px;
+    margin-left: 20px;
 }
 
 li{
@@ -28,7 +28,6 @@ li{
     z-index: 10;
     display: flex;
     align-items: center;
-    gap: 50px;
 }
 
 .nav_btn {
@@ -39,9 +38,31 @@ li{
     border-radius: 100px;
     cursor: pointer;
     transition: .3s;
+    display: none;
   }
 
 .nav_btn:hover{
+    background: linear-gradient(to right, #09C6DE, #460389);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 100px;
+    cursor: pointer;
+    filter: drop-shadow(0 0 40px #09C6DE);
+    transition: .3s; 
+  }
+
+.nav_btn_far_right {
+    background: linear-gradient(to right, #09C6DE, #460389);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: .3s;
+  }
+
+.nav_btn_far_right:hover{
     background: linear-gradient(to right, #09C6DE, #460389);
     border: none;
     color: white;
@@ -71,7 +92,7 @@ li{
     ul{
         display: flex;
         gap: 10px;
-        margin-right: 0px;
+        margin-left: 0px;
     }
 
     .sub_nav_mobile{
@@ -114,6 +135,29 @@ li{
         gap: 10px;
     }
 
+    
+.nav_btn {
+    background: linear-gradient(to right, #09C6DE, #460389);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: .3s;
+    display: block;
+  }
+
+    .nav_btn_far_right {
+        background: linear-gradient(to right, #09C6DE, #460389);
+        border: none;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 100px;
+        cursor: pointer;
+        transition: .3s;
+        display: none;
+      }
+
     .hamburger{
         display: block;
     }
@@ -121,16 +165,25 @@ li{
     
   }
 
+/* 
 
-
-
-  @media only screen and (min-width: 801px) and (max-width: 1200px) {
+  @media only screen and (min-width: 801px) and (max-width: 1020px) {
     ul{
         display: flex;
         gap: 10px;
-        margin-right: 250px;
+        margin-right: 200px;
+    }
+      } 
+      
+      
+       @media only screen and (min-width: 1024px) and (max-width: 1400px) {
+    ul{
+        display: flex;
+        gap: 10px;
+        margin-right: 300px;
     }
       }
+      
  @media only screen and (min-width: 1440px) and (max-width: 1440px) {
     ul{
         display: flex;
@@ -138,4 +191,4 @@ li{
         margin-right: 450px;
     }
       }
-
+ */
