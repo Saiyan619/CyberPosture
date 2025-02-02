@@ -11,7 +11,7 @@ const ScrollSection = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["1%", "-105%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["1%", "-100%"]); 
 
   return (
     <section ref={targetRef} className="scroll-section">
